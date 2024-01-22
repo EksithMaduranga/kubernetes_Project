@@ -24,6 +24,6 @@ steps:
     containers: 'test'
 - task: Docker@2
   inputs:
-    repository: 'ElasticSearch_V4/elasticsearch.yaml'
+    repository: 'https://github.com/EksithMaduranga/kubernetes_Project.git'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
